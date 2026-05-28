@@ -17,7 +17,7 @@ To avoid redistributing participant-level processed biomedical data, this public
 - `supplement/`: Supplementary material files and supplementary figures.
 - `config.yaml`: Example configuration template.
 - `requirements.txt`: Python package requirements.
-Currently, only the script file and supporting files have been uploaded. All files in the directory will be added after the paper is accepted.
+-Currently, only the script file and supporting files have been uploaded. All files in the directory will be added after the paper is accepted.
 ## Data availability
 
 Raw third-party datasets are not redistributed in this repository. Users should obtain the original CGMacros and AZT1D data from their official sources and comply with the corresponding data-use agreements.
