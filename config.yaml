@@ -1,0 +1,55 @@
+# Change this to your local CGMacros extracted folder.
+# Example:
+# data_root: "D:/datasets/CGMacros/CGMacros_dateshifted365"
+# data_root: "/food_data/CGMacros/CGMacros_dateshifted365"
+# data_root: "C:\\ICDM\\CGMacros_dateshifted365\\CGMacros"
+data_root: "C:\\ICDM\\CGMacros_dateshifted365"
+output_dir: "./outputs"
+
+# Meal-centered window in minutes.
+pre_minutes: 30
+post_minutes: 180
+grid_minutes: 5
+
+# Data-quality thresholds.
+max_missing_ratio: 0.30
+min_post_points_for_target: 12
+
+# Main target for baselines.
+main_target: "iauc_2h"
+
+# Devices expected in CGMacros.
+devices:
+  libre: "Libre GL"
+  dexcom: "Dexcom GL"
+
+nutrition_columns:
+  - "Calories"
+  - "Carbs"
+  - "Protein"
+  - "Fat"
+  - "Fiber"
+  - "Amount Consumed"
+
+activity_columns:
+  - "HR"
+  - "Calories (Activity)"
+  - "Mets"
+
+subject_columns:
+  - "Age"
+  - "Gender"
+  - "BMI"
+  - "A1c PDL (Lab)"
+  - "Fasting GLU - PDL (Lab)"
+  - "Insulin"
+  - "Triglycerides"
+  - "Cholesterol"
+  - "HDL"
+  - "LDL (Cal)"
+
+random_seed: 42
+test_size: 0.20
+val_size: 0.10
+
+feature_mode: "causal_premeal"

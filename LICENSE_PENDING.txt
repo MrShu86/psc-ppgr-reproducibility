@@ -1,0 +1,3 @@
+License pending author confirmation.
+
+Before making this repository part of the journal submission record, choose and add an appropriate software license for the code. Do not apply an open data license to excluded participant-level processed data without confirming redistribution permission.
